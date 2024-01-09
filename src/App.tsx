@@ -1,9 +1,11 @@
 import CounterWithClass from "./components/CounterWithClassComponent";
+import CounterWithFuncComponent from "./components/CounterWithFuncComponent";
 
 function App() {
   return (
     <div>
-      <CounterWithClass />
+      {/* <CounterWithClass /> */}
+      <CounterWithFuncComponent />
     </div>
   );
 }
