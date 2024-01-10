@@ -1,4 +1,5 @@
 import TodoForm from "./components/todo/TodoForm";
+import TodoList from "./components/todo/TodoList";
 import TodoProvider from "./context/TodoProvider";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <TodoProvider>
       <div>
         <TodoForm />
+        <TodoList />
       </div>
     </TodoProvider>
   );
